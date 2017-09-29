@@ -888,6 +888,22 @@ a:hover {
     #secondary_news .tile{
         width: 100%;
     }
+    #main{
+        position: absolute;
+        transform: translate(-24%, -6%);
+    }
+    #quicklinks {
+/*    margin: 30px 0px;*/
+/*        margin-bottom: 40px;*/
+        display: none;
+    
+}
+ 
+    .custom-col-sm-2{
+
+        margin-bottom: 150px;
+        
+    }
 
 }
 @media(max-width: 575px){
@@ -909,6 +925,10 @@ a:hover {
     margin-left: 25px;
         
 }
+     #main{
+        transform: translate(-24%, 0.5%);
+    }
+
 
 
 }
